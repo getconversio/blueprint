@@ -27,4 +27,8 @@ module.exports = Object.assign({}, baseConfig, {
             { from: "src/assets/favicon.png", to: "assets" },
         ])
     ]),
+
+    devServer: {
+      port: 9100
+    }
 });
